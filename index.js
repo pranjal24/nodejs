@@ -28,3 +28,7 @@ app.use('/',require('./src/routes/user.route'))
 app.listen(port,()=>{
     console.log('port running on '+ port)
 })
+
+app.get('/', (req,res)=>{
+    res.send('Welcome to myapp');
+})

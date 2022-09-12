@@ -14,9 +14,6 @@ router.post('/signup', async (req,res)=>{
         res.send("user added");
 })
 
-router.get('/', (req,res)=>{
-    res.send('Welcome to myapp');
-})
 
 
 // router.post('/signin',(req,res)=>{
